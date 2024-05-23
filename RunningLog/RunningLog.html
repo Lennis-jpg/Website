@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Running Log</title>
+        <link rel=icon href=img/icon.png  type="image/png">
+        <link rel="stylesheet" href="style.css" />
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <div class="container">
+            <!-- <h2 class="mt-5 mb-5 centeredlabel" id="title" >Running Log</h2> -->
+            <!-- Running Log Blur-->
+            <div class="centeredlabel">
+            <svg xmlns="http://www.w3.org/2000/svg">
+                  <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
+                      <feGaussianBlur stdDeviation="100 0"></feGaussianBlur>
+                  </filter>
+              </svg>
+              <span filter-content="R">Running Log</span>
+            </div>
+              <!-- Running Log Blur-->
+            <div class="mb-5">
+                <div class="row grid">
+                    <div class="form-group col-md-6 mb-3 topgridspacing">
+                        <label for="date" class="formtext">Date</label>
+                        <input type="text" name="date" class="form-control formtext" id="date" placeholder="Enter Date" />
+                    </div>
+                    <div class="form-group col-md-6 mb-3 topgridspacing">
+                        <label for="distance" class="formtext">Distance (Mile/Km)</label>
+                        <input type="text" name="distance" class="form-control formtext" id="distance" placeholder="Enter Distance Either In Miles or Kilometres" />
+                    </div>
+                    <div class="form-group col-md-6 mb-3 ">
+                        <label for="time" class="formtext">Total Time</label>
+                        <input type="time" name="time" class="form-control formtext" id="time" placeholder="Enter Time" />
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="pace" class="formtext">Average Pace</label>
+                        <input type="time" name="pace" class="form-control formtext" id="pace" placeholder="Enter Pace" />
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="timegoal" class="formtext topgridspacing">Time (Goal)</label>
+                        <input type="time" name="timegoal" class="form-control formtext" id="timegoal" placeholder="Enter Time Goal">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="pacegoal" class="formtext topgridspacing">Pace (Goal)</label>
+                        <input type="time" name="pacegoal" class="form-control formtext" id="pacegoal" placeholder="Enter Pace Goal" />
+                    </div>
+                    <!--center button-->
+                    <div class="col-lg-12 mt-2 centerbutton buttonspacing"> 
+                        <center>
+                        <button class="btn btn-success centerbutton" id="submit" onclick="AddData()">
+                            Add New Run
+                        </button>
+                        </center>
+                        <center> 
+                        <button class="btn btn-primary centerbutton" id="update" onclick="AddData()">
+                           Update Run
+                        </button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <table class="table" id="crudtable">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Distance (Mile/Km)</th>
+                                <th>Total Time</th>
+                                <th>Average Pace</th>
+                                <th>Time (Goal)</th>
+                                <th>Pace (Goal)</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+       
+
+        <script src="script.js"></script>
+    </body>
+</html>
