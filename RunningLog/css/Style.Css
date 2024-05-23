@@ -47,12 +47,12 @@
 
 
 /* Styling for table */
-html,
+.html,
 body {
 	height: 100%;
 }
 
-body {
+.body {
 	margin: 0;
   background: linear-gradient(30deg, #49a09d, goldenrod);
   height: 100%; 
@@ -63,18 +63,18 @@ body {
 	font-weight: 100;
 }
 
-table{
+.table{
  box-shadow: 0 2px 15px rgba(64,64,64,.7);
  border-radius: 12px 12px 12px 12px;
  overflow: hidden;
 }
-td , th{
+.td , th{
  padding: 15px 20px;
  text-align: center;
  
 
 }
-th{
+.th{
  background-color: #ba68c8;
  color: #000000;
  text-align: center;
@@ -83,13 +83,13 @@ th{
  text-transform: uppercase;
 
 }
-tr{
+.tr{
  width: 100%;
  text-align: center;
  background-color: #fafafa;
  font-family: 'Montserrat', sans-serif;
 }
-tr:nth-child(even){
+.tr:nth-child(even){
  background-color: #eeeeee;
 }
 
@@ -124,7 +124,7 @@ tr:nth-child(even){
 
 /* We set the position to relative so that we can stack a blurred pseudo element on top of the original text */
 
-span {
+.span {
   position: relative;
   font-family: "Avenir Next", sans-serif;
   font-weight: 900;
@@ -138,7 +138,7 @@ span {
 
 /* We create a pseudo element and  it using the SVG filter. We’ll grab the content from the custom HTML attribute. */
 
-span:before {
+.span:before {
   position: absolute;
   left: 0;
   top: 0;
@@ -149,7 +149,7 @@ span:before {
 
 /* We hide the SVG filter element from the DOM as it would take up some space */
 
-svg {
+.svg {
   display: none;
 }
 
@@ -171,7 +171,7 @@ svg {
 
 /* Form label style for RunningLog */
 
-runningtext {
+.runningtext {
   position: relative;
   font-family: "Avenir Next", sans-serif;
   font-weight: 900;
@@ -185,7 +185,7 @@ runningtext {
 
 /* We create a pseudo element and  it using the SVG filter. We’ll grab the content from the custom HTML attribute. */
 
-runningtext:before {
+.runningtext:before {
   position: absolute;
   left: 0;
   top: 0;
@@ -196,7 +196,7 @@ runningtext:before {
 
 /* We hide the SVG filter element from the DOM as it would take up some space */
 
-svg {
+.svg {
   display: none;
 }
 
@@ -218,7 +218,7 @@ svg {
 
 /* RunningLog text */
 
-p{
+.p{
   position: relative;
   font-family: "Avenir Next", sans-serif;
   font-weight: 600;
@@ -233,13 +233,13 @@ p{
 
 /* logos */
 
-img {
+.img {
   text-align: center;
   width: 25%;
   height: auto;
 }
 
-web { 
+.web { 
   text-align: center;
   width: 10%;
   height: auto;
@@ -249,7 +249,7 @@ web {
 
 /* credit text */
 
-p1{
+.p1{
   position: relative;
   font-family: "Avenir Next", sans-serif;
   font-weight: 600;
@@ -271,7 +271,7 @@ p1{
 
 /* app badges */
 
-app-badge{
+.app-badge{
   width:100%;
 }
 
