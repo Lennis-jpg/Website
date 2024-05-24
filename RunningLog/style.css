@@ -108,6 +108,10 @@ tr:nth-child(even){
   padding: 1rem;
 }
 
+.bottomgridspacing{
+  margin-bottom: 1rem;
+}
+
 /*  Blurred logo */
 
 /* We’ll set some colors and center everything. */
