@@ -13,11 +13,11 @@
         return false;
     }
     if (!time) {
-        alert("Time is required to be filled in");
+        alert("Total Time is required to be filled in");
         return false;
     }
     if (!pace) {
-        alert("Pace is required to be filled in");
+        alert("Average Pace is required to be filled in");
         return false;
     }
     return true;
