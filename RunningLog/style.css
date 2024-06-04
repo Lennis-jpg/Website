@@ -108,6 +108,10 @@ tr:nth-child(even){
   padding: 1rem;
 }
 
+.spacingwithoutlogo{
+  padding: 6rem;
+}
+
 .bottomgridspacing{
   margin-bottom: 1rem;
 }
