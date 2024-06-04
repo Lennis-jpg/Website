@@ -156,17 +156,17 @@ function updateData(index) {
 }
 
 
-lazy var webView: WKWebView = {        
-  let configuration = WKWebViewConfiguration()        
-  let source: String = "var meta = document.createElement('meta');" +            
-  "meta.name = 'viewport';" +            
-  "meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';" +            
-  "var head = document.getElementsByTagName('head')\[0\];" +        
-  "head.appendChild(meta);"        
-  let script: WKUserScript = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: true)        
-    configuration.userContentController.addUserScript(script)        
-      let webView = WKWebView(frame: .zero, configuration: configuration)        
-        webView.navigationDelegate = self        
-          return webView    
-}()
+//lazy var webView: WKWebView = {        
+  //let configuration = WKWebViewConfiguration()        
+  //let source: String = "var meta = document.createElement('meta');" +            
+  //"meta.name = 'viewport';" +            
+  //"meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';" +            
+  //"var head = document.getElementsByTagName('head')\[0\];" +        
+  //"head.appendChild(meta);"        
+  //let script: WKUserScript = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: true)        
+  //  configuration.userContentController.addUserScript(script)        
+  //    let webView = WKWebView(frame: .zero, configuration: configuration)        
+  //      webView.navigationDelegate = self        
+  //        return webView    
+//}()
 
