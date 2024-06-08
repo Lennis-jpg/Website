@@ -170,6 +170,11 @@ runningtext:before {
   text-align: center;
 }
 
+.textspacing{
+  padding-top: 2rem;
+  margin-bottom: 0rem;
+}
+
 @keyframes octocat-wave {
 
   0%,
