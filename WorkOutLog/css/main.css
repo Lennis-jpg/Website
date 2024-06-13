@@ -1,0 +1,200 @@
+body {
+  letter-spacing: 0.0625em;
+  font-family: "Avenir Next", sans-serif; 
+  color: black;
+  background: linear-gradient(30deg, #80FFDB, #5390D9);
+}
+
+#video_container {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 35rem;
+}
+
+/* Cover entire window */
+#BackgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; 
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 35rem;
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+}
+
+h1 { 
+  font-family: "Avenir Next", sans-serif; 
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  font-family: "Avenir Next", sans-serif; 
+  color: black;
+  text-transform: uppercase; 
+  letter-spacing: 0.05em;
+  max-width: 200rem;
+  font-size: 1rem;
+}
+
+runningtext {
+  font-family: "Avenir Next", sans-serif; 
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  max-width: 30rem;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+  h2 { 
+    font-family: "Avenir Next", sans-serif; 
+    color: black;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+    max-width: 300rem;
+    font-size: 1.25rem;
+  }
+
+  runningtext {
+    font-family: "Avenir Next", sans-serif; 
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  h2 { 
+    font-family: "Avenir Next", sans-serif; 
+    color:black;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+    max-width: 300rem;
+    font-size: 1.25rem;
+  }
+
+  runningtext {
+    font-family: "Avenir Next", sans-serif; 
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    max-width: 30rem;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}
+
+.runninglog {
+  text-align: center;
+}
+
+/* Form label style for RunningLog */
+
+runningtext {
+  position: relative;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+  color: #000000;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  text-align: center;
+} 
+
+/* We create a pseudo element and  it using the SVG filter. We’ll grab the content from the custom HTML attribute. */
+
+runningtext:before {
+  position: left;
+  left: 0;
+  top: 0;
+  content: attr(filter-content);
+  text-align: left;
+
+  filter: url(#motion-blur-filter);
+}
+
+.footer {
+  /* text-align: center;
+  padding: 5rem; */
+  position: fixed;  
+  left: 10px;  
+  bottom: 5px;  
+  right: 10px;   
+  width: 95%;    
+  text-align: center;
+  color: #000000;
+}
+
+.p1 {
+  color: #000000;
+  text-align: center;
+}
+
+.textspacing{
+  padding-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
