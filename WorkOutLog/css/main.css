@@ -171,6 +171,15 @@ runningtext:before {
   color: #000000;
 }
 
+.share {
+  padding: 4rem; 
+  position: fixed;  
+  left: 10px;  
+  bottom: 5px;  
+  right: 10px;   
+  width: 95%;    
+}
+
 .p1 {
   color: #000000;
   text-align: center;
