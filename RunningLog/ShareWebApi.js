@@ -12,7 +12,7 @@ share.addEventListener('click', event => {
     });
   } else {
     // Alert is function not supported on browser
-    alert("This browser does not support the share function, please share QR code instead.")
+    alert("This browser does not support the share function, please share the QR code instead.")
   }
 });
 // Share Web Api
