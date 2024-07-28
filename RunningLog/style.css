@@ -218,7 +218,7 @@ svg {
   font-weight: 600;
   font-size: 20px;
   color: #000000;
-  text-transform: uppercase; 
+  text-transform: none;
   letter-spacing: 0.05em;
   display: inline-block;
   text-align: center;
