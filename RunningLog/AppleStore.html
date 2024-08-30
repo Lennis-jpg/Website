@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Running Log</title>
+  <meta name="description" content="Keep track of your runs, using running log to help you achieve your running goals.">
+  <link rel="icon" type="image/x-icon" href="img/icon.png" />
+  <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin=""></script>
+  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body id="page-top">
+  <!-- Video Background --> 
+  <video autoplay muted loop id="BackgroundVideo">
+    <source src="video/background.mp4" type="video/mp4">
+  </video>
+
+ <!-- Title & Application Description -->
+  <header class="d-flex align-items-center">
+    <div class="container d-flex h-100 align-items-center"> 
+        <div class="mx-auto text-center"> 
+            <div class="runninglog">
+              <svg xmlns="http://www.w3.org/2000/svg">
+                    <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
+                        <feGaussianBlur stdDeviation="100 0"></feGaussianBlur>
+                    </filter>
+                </svg> 
+                <runningtext filter-content="R">Running Log </runningtext> 
+              </div>
+            <h2 class="text-black-50 mx-auto mt-2 mb-5">Coming to Apple Store</h2>
+            <a href=""><img src="img/app-store-badge.svg" width="200" height="90"></a>
+            <a href="https://clerusync.com/RunningLog/RL"><img src="img/RunningLogLogo.png" width="200" height="200"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.clerusync.runninglog"><img src="img/google-play-badge.svg" width="200" height="70"></a> 
+            <!-- https://apps.apple.com/gb/developer/lennis-ngugi/id1600332377 -->
+            <div class = "share">
+              <img src="img/share.png" width="100" height="100" id="share"> 
+            </div>
+            <div class = "footer"> 
+              <a class="p1" href="TermsandConditions"><p1>Terms and Conditions</p1></a>
+              <a class="p1" href="PrivacyPolicy"><p1>Privacy Policy</p1></a>
+            </div>
+        </div>
+    </div>
+  </header>
+  <script src ="ShareWebApi.js"></script>
+</body>
+</html>
