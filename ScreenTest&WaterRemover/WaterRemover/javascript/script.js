@@ -1,9 +1,9 @@
 //5 Minutes
 var sound1 = new Audio();
-sound1.src = "audio/5_Minutes.mp3";
+sound1.src = "https://clerusync.com/ScreenTest&WaterRemover/WaterRemover/audio/5_Minutes.mp3";
 // 10 Minutes
 var sound1 = new Audio();
-sound1.src = "audio/10_Minutes.mp3";
+sound1.src = "https://clerusync.com/ScreenTest&WaterRemover/WaterRemover/audio/10_Minutes.mp3";
 // 15 Minutes
 var sound1 = new Audio();
 sound1.src = "audio/15_Minutes.mp3";
