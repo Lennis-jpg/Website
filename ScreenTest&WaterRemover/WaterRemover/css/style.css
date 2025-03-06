@@ -1,0 +1,120 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background: antiquewhite;
+  overflow-y: hidden; 
+  overflow-x: hidden;
+}
+
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center
+}
+
+.topcenter {
+  position: absolute;
+  bottom: 8px;
+  right: 16px
+}
+
+/* CSS */
+.button {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}  
+
+/* water test button */
+.buttonwater {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 17px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttonwater1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttonwater2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}  
+
+/* index test button */
+.buttonhome {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 37px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttonhome1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttonhome2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}  
