@@ -637,27 +637,27 @@ body { background: var(--white); }
 
 
 /*-----------------------------------*\
- * #GALLERY
+ * #experiences
 \*-----------------------------------*/
 
-.gallery { padding-block: var(--section-padding); }
+.experiences { padding-block: var(--section-padding); }
 
-.gallery-list {
+.experiences-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
-.gallery-image {
+.experiences-image {
   width: 100%;
   height: 100%;
   border-radius: var(--radius-15);
   overflow: hidden;
 }
 
-.gallery-item:nth-child(3) { grid-area: 1 / 2 / 3 / 3; }
+.experiences-item:nth-child(3) { grid-area: 1 / 2 / 3 / 3; }
 
-.gallery-image img {
+.experiences-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -705,16 +705,16 @@ body { background: var(--white); }
   line-height: 1.7;
 }
 
-.footer-contact { margin-bottom: 30px; }
+.footer-insurance { margin-bottom: 30px; }
 
-.contact-title {
+.insurance-title {
   position: relative;
   font-family: var(--ff-montserrat);
   font-weight: var(--fw-500);
   margin-bottom: 30px;
 }
 
-.contact-title::after {
+.insurance-title::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -724,13 +724,13 @@ body { background: var(--white); }
   background: var(--bright-navy-blue);
 }
 
-.contact-text {
+.insurance-text {
   font-size: var(--fs-5);
   margin-bottom: 15px;
   max-width: 200px;
 }
 
-.contact-item {
+.insurance-item {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -738,16 +738,16 @@ body { background: var(--white); }
   margin-bottom: 10px;
 }
 
-.contact-item ion-icon { --ionicon-stroke-width: 40px; }
+.insurance-item ion-icon { --ionicon-stroke-width: 40px; }
 
-.contact-link,
+.insurance-link,
 address {
   font-style: normal;
   color: var(--gainsboro);
   font-size: var(--fs-5);
 }
 
-.contact-link:is(:hover, :focus) { color: var(--white); }
+.insurance-link:is(:hover, :focus) { color: var(--white); }
 
 .form-text {
   font-size: var(--fs-5);
@@ -1074,17 +1074,17 @@ address {
 
 
   /**
-   * GALLERY
+   * experiences
    */
 
-  .gallery { padding-bottom: calc(var(--section-padding * 2)); }
+  .experiences { padding-bottom: calc(var(--section-padding * 2)); }
 
-  .gallery-list {
+  .experiences-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
-  .gallery-image { border-radius: var(--radius-25); }
+  .experiences-image { border-radius: var(--radius-25); }
 
 
 
