@@ -409,7 +409,7 @@ body { background: var(--white); }
 
 
 /*-----------------------------------*\
- * #DESTINATIONS SEARCH
+ * #TOUR SEARCH
 \*-----------------------------------*/
 
 .destinations-search {
@@ -705,16 +705,16 @@ body { background: var(--white); }
   line-height: 1.7;
 }
 
-.footer-insurance { margin-bottom: 30px; }
+.footer-contact { margin-bottom: 30px; }
 
-.insurance-title {
+.contact-title {
   position: relative;
   font-family: var(--ff-montserrat);
   font-weight: var(--fw-500);
   margin-bottom: 30px;
 }
 
-.insurance-title::after {
+.contact-title::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -724,13 +724,13 @@ body { background: var(--white); }
   background: var(--bright-navy-blue);
 }
 
-.insurance-text {
+.contact-text {
   font-size: var(--fs-5);
   margin-bottom: 15px;
   max-width: 200px;
 }
 
-.insurance-item {
+.contact-item {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -738,16 +738,16 @@ body { background: var(--white); }
   margin-bottom: 10px;
 }
 
-.insurance-item ion-icon { --ionicon-stroke-width: 40px; }
+.contact-item ion-icon { --ionicon-stroke-width: 40px; }
 
-.insurance-link,
+.contact-link,
 address {
   font-style: normal;
   color: var(--gainsboro);
   font-size: var(--fs-5);
 }
 
-.insurance-link:is(:hover, :focus) { color: var(--white); }
+.contact-link:is(:hover, :focus) { color: var(--white); }
 
 .form-text {
   font-size: var(--fs-5);
