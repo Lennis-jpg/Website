@@ -452,30 +452,30 @@ body { background: var(--white); }
 
 
 /*-----------------------------------*\
- * #POPULAR
+ * #DESTINATION
 \*-----------------------------------*/
 
-.popular { padding-block: var(--section-padding); }
+.destinations { padding-block: var(--section-padding); }
 
-.popular-list,
-.popular-list > li:not(:last-child) { margin-bottom: 30px; }
+.destinations-list,
+.destinations-list > li:not(:last-child) { margin-bottom: 30px; }
 
-.popular-card {
+.destinations-card {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-25);
   height: 430px;
 }
 
-.popular-card .card-img { height: 100%; }
+.destinations-card .card-img { height: 100%; }
 
-.popular-card .card-img img {
+.destinations-card .card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.popular-card .card-content {
+.destinations-card .card-content {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -486,7 +486,7 @@ body { background: var(--white); }
 }
 
 
-.popular-card .card-rating {
+.destinations-card .card-rating {
   background: var(--bright-navy-blue);
   color: var(--white);
   position: absolute;
@@ -501,18 +501,18 @@ body { background: var(--white); }
   font-size: 14px;
 }
 
-.popular-card .card-subtitle {
+.destinations-card .card-subtitle {
   color: var(--blue-ncs);
   font-size: var(--fs-6);
   text-transform: uppercase;
   margin-bottom: 8px;
 }
 
-.popular-card .card-title { margin-bottom: 5px; }
+.destinations-card .card-title { margin-bottom: 5px; }
 
-.popular-card :is(.card-subtitle, .card-title) > a { color: inherit; }
+.destinations-card :is(.card-subtitle, .card-title) > a { color: inherit; }
 
-.popular .btn { margin-inline: auto; }
+.destinations .btn { margin-inline: auto; }
 
 
 
@@ -943,10 +943,10 @@ address {
 
 
   /**
-   * POPULAR
+   * destinations
    */
 
-  .popular-card .card-content { right: auto; }
+  .destinations-card .card-content { right: auto; }
 
 
 
@@ -1031,19 +1031,19 @@ address {
 
 
   /**
-   * POPULAR
+   * destinations
    */
 
-  .popular-list {
+  .destinations-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-bottom: 50px;
   }
 
-  .popular-list > li:not(:last-child) { margin-bottom: 0; }
+  .destinations-list > li:not(:last-child) { margin-bottom: 0; }
 
-  .popular-card .card-content { right: 20px; }
+  .destinations-card .card-content { right: 20px; }
 
 
 
@@ -1221,10 +1221,10 @@ address {
 
 
   /**
-   * POPULAR
+   * destinations
    */
 
-  .popular-list { grid-template-columns: repeat(3, 1fr); }
+  .destinations-list { grid-template-columns: repeat(3, 1fr); }
 
 
 
