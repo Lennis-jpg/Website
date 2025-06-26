@@ -4,6 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/**
+* Popup form for the sell button
+*/
+function sellbutton() {
+    alert("To sell a share please contact clerusync@hotmail.com with the issued certificate number.");
+  }
+
 (function() {
   "use strict";
 
