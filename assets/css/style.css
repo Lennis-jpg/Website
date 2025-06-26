@@ -1775,6 +1775,74 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Investments
+--------------------------------------------------------------*/
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons_container{
+  justify-content: center;
+  align-items: center;
+}
+
+.buybutton {
+  margin-top: 20px;
+  background: green;
+  color: #fff;
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 25px;
+  transition: 1s ease-in;
+}
+
+.buybutton:hover {
+  background: lightgreen;
+
+  color: #fff;
+  transition: 1s ease-out;
+}
+
+.sellbutton {
+  margin-top: 20px;
+  background: red;
+  color: #fff;
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 25px;
+  transition: 1s ease-in;
+}
+
+.sellbutton:hover {
+  background: lightcoral;
+
+  color: #fff;
+  transition: 1s ease-out;
+}
+
+.section-investments p{
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
