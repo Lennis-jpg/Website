@@ -80,6 +80,49 @@ body {
     justify-content: center;
     gap: 2rem;
   }
+
+  .privacy {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .privacy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .privacy p {
+    color: #555;
+    margin-bottom: 3rem;
+  }
+  .privacy-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .terms {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .terms h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .terms p {
+    color: #555;
+    margin-bottom: 3rem;
+  }
+  .terms-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .footer { 
+    text-align: center;
+  }
+
   .card {
     background: white;
     padding: 2rem;
