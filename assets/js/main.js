@@ -33,14 +33,14 @@ window.addEventListener("load", executeCodes);
 * Popup form for the sell button
 */
 function sellbutton() {
-    alert("Clerusync Limited is now dissolved please read the public notice on the home page.");
+    alert("Clerusync Limited is now dissolved. Please read the public notice on the home page.");
   }
 
 /**
 * Popup form for the buy button
 */
 function buybutton() {
-  alert("Clerusync Limited is now dissolved please read the public notice on the home page.");
+  alert("Clerusync Limited is now dissolved. Please read the public notice on the home page.");
 }
 
 
@@ -295,4 +295,5 @@ function buybutton() {
   });
 
 })()
+
 
