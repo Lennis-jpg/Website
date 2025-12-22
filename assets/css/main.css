@@ -924,6 +924,10 @@ p1 {
   color: #fff;
 }
 
+#footer .publicnotice {
+  float: left;
+}
+
 #footer .copyright {
   float: left;
 }
