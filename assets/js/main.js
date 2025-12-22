@@ -33,8 +33,16 @@ window.addEventListener("load", executeCodes);
 * Popup form for the sell button
 */
 function sellbutton() {
-    alert("To sell a share please contact clerusync@hotmail.com with the issued certificate number.");
+    alert("Clerusync Limited is now dissolved please read the public notice on the home page.");
   }
+
+/**
+* Popup form for the buy button
+*/
+function buybutton() {
+  alert("Clerusync Limited is now dissolved please read the public notice on the home page.");
+}
+
 
 (function() {
   "use strict";
@@ -287,3 +295,4 @@ function sellbutton() {
   });
 
 })()
+
