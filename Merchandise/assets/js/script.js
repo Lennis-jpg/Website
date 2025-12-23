@@ -24,3 +24,11 @@ const header = document.querySelector("[data-header]");
 window.addEventListener("scroll", function () {
   header.classList[this.scrollY > 50 ? "add" : "remove"]("active");
 });
+
+/**
+* Popup form for the buy button
+*/
+
+function buybutton() {
+  alert("Clerusync Limited is now dissolved. Please read the public notice on the home page.");
+}
