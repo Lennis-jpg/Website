@@ -43,6 +43,13 @@ function buybutton() {
   alert("Clerusync Limited is now dissolved. Please read the public notice on the home page.");
 }
 
+/**
+* Popup form for the Travel button
+*/
+function travelbutton() {
+  alert("Clerusync Limited is now dissolved. Please read the public notice on the home page.");
+}
+
 
 (function() {
   "use strict";
@@ -295,6 +302,7 @@ function buybutton() {
   });
 
 })()
+
 
 
 
