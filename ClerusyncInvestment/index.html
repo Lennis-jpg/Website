@@ -76,6 +76,73 @@
     </div>
   </section>
 
+  <!-- Payment Options -->
+  <section class="pricing-section">
+<center>
+    <h1>Which plan is right for you?</h1>
+    <p class="subtitle">Free for the first month</p>
+    
+    <div class="discount">GET 30% OFF WITH YEARLY</div>
+  </center>
+    <div class="toggle">
+    <span>Bill monthly</span>
+    
+    <label class="switch">
+    <input type="checkbox" id="billingToggle">
+    <span class="slider"></span>
+    </label>
+    
+    <span>Bill yearly</span>
+    </div>
+    
+    <div class="pricing-container">
+    
+    <!-- PRO PLAN -->
+    <div class="card">
+    
+    <h3>Premium</h3>
+    <p class="billing" id="billing-pro">Billed monthly</p>
+    
+    <h2 id="price-pro">£5 <span class="small">per month</span></h2>
+    
+    <ul> 
+      <li>✓ Market research tools</li> 
+      <li>✓ Unlimited AI Forex research</li>
+      <li>✓ Forex prediction models</li>
+      <li>✓ Advanced stock data insights</li>
+      <li>✓ Real-time charts</li> 
+      <li>✓ Economic calendar & news</li>
+      <li>✓ Dataset upload & analysis</li>
+    </ul>
+     
+    <button onclick="window.location.href='https://invoicly.co.uk/signup'">Get Started</button> 
+    
+    </div>
+    <!-- DEVELOPER PLAN -->
+    <div class="card">
+    <h3>Developer API</h3>
+    <p class="billing" id="billing-dev">Billed monthly</p>
+    <h2 id="price-dev">£2 <span class="small">per month</span></h2>
+  
+    <ul> 
+      <li>✓ 1,000 requests/day</li>
+      <li>✓ Forex AI research API</li>
+      <li>✓ Stock market data API </li>
+      <li>✓ Economic calendar API</li>
+      <li>✓ Financial news API</li>
+      <li>✓ Developer documentation</li>
+    </ul>
+    
+    <button onclick="window.location.href='https://invoicly.co.uk/signup'">Get API Access</button>  
+    
+    </div>
+    
+    </div>
+    
+    </section>
+    
+    
+
   <!-- Call to Action -->
   <section id="cta" class="cta">
     <div class="container cta-content">
@@ -98,9 +165,33 @@
         <a href="https://clerusync.com/ClerusyncInvestment/Terms&Conditions">Terms & Conditions</a>
         <a href="https://clerusync.com/ClerusyncInvestment/PrivacyPolicy">Policy Policy</a>
       </div>
+      <!-- <p>2025 @ Clerusync Investment </p> --> 
       <script>
         document.write((" © Clerusync Investment ") + new Date().getFullYear());
       </script>
+      <script>
+      const toggle = document.getElementById("billingToggle")
+      
+      toggle.addEventListener("change", function(){
+        
+        if(this.checked){
+          document.getElementById("price-pro").innerHTML = "£42 <span class='small'>per year</span>" 
+          document.getElementById("price-dev").innerHTML = "£16.80 <span class='small'>per year</span>"
+          
+          document.getElementById("billing-pro").innerText = "Billed yearly" 
+          document.getElementById("billing-dev").innerText = "Billed yearly"
+        }
+        
+        else{
+          document.getElementById("price-pro").innerHTML = "£5 <span class='small'>per month</span>" 
+          document.getElementById("price-dev").innerHTML = "£2 <span class='small'>per month</span>"
+          
+          document.getElementById("billing-pro").innerText = "Billed monthly" 
+          document.getElementById("billing-dev").innerText = "Billed monthly"
+        }
+      })
+      </script>
+      <script src="/pricing.js"></script>
     </div>
   </footer>
 </body>
