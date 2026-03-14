@@ -259,3 +259,158 @@ body {
     flex-direction: column;
   }
 }
+
+/* Pricing */
+.pricing-section{
+  padding:60px 20px;
+  }
+  
+  h1{
+  font-size:42px;
+  margin-bottom:10px;
+  }
+
+  .price-dev{
+    font-size:32px;
+    margin-bottom:20px;
+  }
+  
+  .subtitle{
+  font-size:28px;
+  color:#999;
+  margin-bottom:30px;
+  }
+  
+  .toggle{
+  margin-bottom:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  font-size:14px;
+  }
+  
+  /* toggle switch */
+  
+  .switch{
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:25px;
+  }
+  
+  .switch input{
+  opacity:0;
+  width:0;
+  height:0;
+  }
+  
+  .slider{
+  position:absolute;
+  cursor:pointer;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:#ccc;
+  transition:.4s;
+  border-radius:20px;
+  }
+  
+  .slider:before{
+  position:absolute;
+  content:"";
+  height:19px;
+  width:19px;
+  left:3px;
+  bottom:3px;
+  background:white;
+  transition:.4s;
+  border-radius:50%;
+  }
+  
+  input:checked + .slider{
+  background:#22c55e;
+  }
+  
+  input:checked + .slider:before{
+  transform:translateX(24px);
+  }
+  
+  /* cards */
+  
+  .pricing-container{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  }
+  
+  .card{
+  background:white;
+  width:300px;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.08);
+  text-align:left;
+  }
+  
+  .card h3{
+  margin:0;
+  font-size:18px;
+  }
+  
+  .billing{
+  color:#777;
+  font-size:14px;
+  margin-bottom:20px;
+  }
+  
+  .card h2{
+  font-size:32px;
+  margin-bottom:20px;
+  }
+  
+  .card span{
+  font-size:14px;
+  color:#777;
+  }
+  
+  .includes{
+  font-size:14px;
+  color:#555;
+  margin-bottom:10px;
+  }
+  
+  ul{
+  list-style:none;
+  padding:0;
+  margin-bottom:25px;
+  }
+  
+  ul li{
+  margin:10px 0;
+  color:#333;
+  font-size:14px;
+  }
+  
+  button{
+  width:100%;
+  padding:12px;
+  background:black;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:15px;
+  cursor:pointer;
+  }
+  
+  button:hover{
+  background:#333;
+  }
+  
+  /* highlight card */
+  
+  .highlight{
+  border:2px solid #22c55e;
+  }
